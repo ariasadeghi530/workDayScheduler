@@ -6,13 +6,44 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Work-Day Planner</title>
 
+  <!-- UIKit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css"/>
+
 </head>
 <body>
+<!-- Nav Bar begin -->
+<nav class="uk-navbar-container uk-navbar">
+  <div class="uk-navbar-center uk-padding">
 
-  <script src="moment.js"></script>
-  <script>
-    moment().format();
-  </script>
+    <ul class="uk-navbar-nav">
+      <li class="uk-active">
+        <a>
+          <div class="uk-text-large uk-text-capitalize uk-text-center">
+            Work Day Planner
+            <div class="uk-navbar-subtitle uk-text-sm uk-text-lowercase uk-margin-top"><span class="uk-text-capitalize">Use</span> this calendar to neatly oraganize your work-related tasks</div>
+            <div class="uk-navbar-subtitle uk-text-sm uk-text-lowercase" ><span class="uk-text-capitalize" id="header-date">Today</span>
+            </div>
+          </div>
+        </a>
+      </li>
+      </ul>
+     </nav>
+
+
+     
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+
+  <!-- Moment js API -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+<!-- My JS -->
   <script src="./assets/app.js"></script>
 </body>
 </html>
