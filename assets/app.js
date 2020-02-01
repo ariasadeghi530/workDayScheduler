@@ -15,7 +15,6 @@ for (let i = 9; i <= 17; i++) {
       `
   }
   else if (parseInt(document.getElementById(`${i}`).id) < timeNow) {
-    console.log('ping')
     document.getElementById(`${i}`).innerHTML = `
       <input class="uk-input uk-textarea uk-padding" type="text" disabled>
       `
