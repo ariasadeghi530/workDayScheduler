@@ -9,10 +9,8 @@ let timeNow = moment().format('H');
 //compare time now to calendar hours, and change text area color depending on time
 for (let i = 9; i <= 17; i++) {
   let textInd = i + 10;
-  console.log(parseInt(document.getElementById(`${i}`).id));
-  console.log(timeNow)
+  
   if (document.getElementById(`${i}`).id === timeNow) {
-    console.log('ping');
     document.getElementById(`${i}`).innerHTML = `
       <input class="uk-input uk-textarea uk-padding uk-background-primary" id="${textInd}" type="text">
       `
